@@ -6,13 +6,16 @@ Designed for gamers and cinephiles who demand zero-lag performance, seamless col
 WLED Masterpiece Suite is a high-performance Windows desktop ambient lighting controller designed to bridge the gap between your monitor and your room's physical environment. By utilizing the Windows Desktop Duplication API via BetterCam, it captures screen data with virtually zero CPU overhead, making it perfectly suited for high-frame-rate gaming.Unlike rigid commercial alternatives, this suite features a fully unlocked architecture—allowing users to define custom matrix grid dimensions ($W \times H$), map distinct spatial edge-sampling zones (Top, Bottom, Left, Right), calibrate independent hardware white balances, and automatically deflect cinematic letterbox black bars on the fly. It runs quietly in the system tray, automatically backing up your entire layout configuration to a local JSON file.
 ---
 ## 🗺️ Future Roadmap
+
 We are actively pushing this suite to become the ultimate ambient lighting engine on the internet. Upcoming milestones include:
 
 - [x] **007 First Light Integration:** Dynamic UI scanning for Stealth alerts, Q-Branch gadget overlays, and real-time explosion overrides.
 - [ ] **Game-Specific Profile Pipeline:** Expanding context-aware lighting hooks for major titles:
+  - *Grand Theft Auto VI:* Alternating flashing **Police Siren Red & Blue** during high-level wanted stars, and a neon vaporwave pink/teal ambient overlay when driving through Vice City at night.
+  - *Call of Duty:* Instantly bypassing smoothing filters for a blinding 100% whiteout during flashbangs, and a violent blood-red room vignette when dropping to critical low health.
+  - *Rust:* A slow, eerie pulsing **Radioactive Green** atmosphere when entering irradiated monuments, and sharp white muzzle flares linked to base automated turrets or gunfire.
+  - *DayZ:* Deep faded gray/desaturated lighting when bleeding out or at low blood levels, and bright amber flashes when survival flares or campfires are lit in dark fields.
   - *Helldivers 2:* Physical red strobe pulses when Hellpods launch, strategic flashes on low stamina/stims, and bright white flashes on target completions.
-  - *Cyberpunk 2077:* Deep neon pink/turquoise shift when entering night markets, and rapid yellow/red flickering during cyberware glitches or high threat combat.
-  - *Counter-Strike 2 / Valorant:* Blinding immediate whiteout during flashbangs with a natural fade-out curve, and red pulsing rhythms when the bomb/spike is planted.
 - [ ] **Standalone Installer:** Compiling into a single `.exe` via PyInstaller for zero-dependency execution.
 - [ ] **Matrix Wiring Topologies:** Adding native support for Serpentine (Zig-Zag) physical matrix layouts directly via a GUI toggle.
 - [ ] **Stream Deck Plugin:** Launching a dedicated plugin to toggle profiles and ignition switches via physical macro keys.
