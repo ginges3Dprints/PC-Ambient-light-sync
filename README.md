@@ -5,6 +5,13 @@ An enthusiast-grade, ultra-low latency ambient desktop lighting synchronization 
 Designed for gamers and cinephiles who demand zero-lag performance, seamless color physics, and hardware flexibility.
 WLED Masterpiece Suite is a high-performance Windows desktop ambient lighting controller designed to bridge the gap between your monitor and your room's physical environment. By utilizing the Windows Desktop Duplication API via BetterCam, it captures screen data with virtually zero CPU overhead, making it perfectly suited for high-frame-rate gaming.Unlike rigid commercial alternatives, this suite features a fully unlocked architecture—allowing users to define custom matrix grid dimensions ($W \times H$), map distinct spatial edge-sampling zones (Top, Bottom, Left, Right), calibrate independent hardware white balances, and automatically deflect cinematic letterbox black bars on the fly. It runs quietly in the system tray, automatically backing up your entire layout configuration to a local JSON file.
 ---
+## 🗺️ Future Roadmap
+
+We are actively pushing this suite to become the ultimate ambient lighting engine on the internet. Upcoming milestones include:
+- [ ] **Standalone Installer:** Compiling into a single `.exe` via PyInstaller for zero-dependency execution.
+- [ ] **Matrix Wiring Topologies:** Adding native support for Serpentine (Zig-Zag) physical matrix layouts directly via a GUI toggle.
+- [ ] **Stream Deck Plugin:** Launching a dedicated plugin to toggle profiles and ignition switches via physical macro keys.
+- [ ] **Visual Layout Mapping:** An interactive drag-and-drop desk layout canvas built directly into the CustomTkinter core dashboard.
 
 ## ✨ Key Features
 
