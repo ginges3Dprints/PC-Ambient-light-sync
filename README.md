@@ -3,7 +3,7 @@
 An enthusiast-grade, ultra-low latency ambient desktop lighting synchronization engine written in Python. This suite captures your screen in real-time and broadcasts dynamic color data frames directly to **WLED-enabled hardware arrays** (LED strips and custom matrix panels) over UDP.
 
 Designed for gamers and cinephiles who demand zero-lag performance, seamless color physics, and hardware flexibility.
-
+WLED Masterpiece Suite is a high-performance Windows desktop ambient lighting controller designed to bridge the gap between your monitor and your room's physical environment. By utilizing the Windows Desktop Duplication API via BetterCam, it captures screen data with virtually zero CPU overhead, making it perfectly suited for high-frame-rate gaming.Unlike rigid commercial alternatives, this suite features a fully unlocked architecture—allowing users to define custom matrix grid dimensions ($W \times H$), map distinct spatial edge-sampling zones (Top, Bottom, Left, Right), calibrate independent hardware white balances, and automatically deflect cinematic letterbox black bars on the fly. It runs quietly in the system tray, automatically backing up your entire layout configuration to a local JSON file.
 ---
 
 ## ✨ Key Features
