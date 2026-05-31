@@ -1,4 +1,4 @@
 {
-    "version": "1.0.0",
-    "notes": "Initial launch of WLED Masterpiece Suite with GeForce NOW an other games are support."
+    "version": "1.0.1",
+    "notes": "Added continuous screen capture override shortcut for Smart Cinematic auto-crop mode."
 }
